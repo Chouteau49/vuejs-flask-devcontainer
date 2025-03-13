@@ -13,7 +13,8 @@
             },
             "extensions": [
                 "ms-python.python",
-                "ms-python.vscode-pylance"
+                "ms-python.vscode-pylance",
+                "octref.vetur" // Vue - Official
             ]
         }
     }
