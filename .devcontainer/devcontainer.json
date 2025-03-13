@@ -1,0 +1,20 @@
+{
+    "name": "Flask Dev Container",
+    "dockerComposeFile": "docker-compose.yml", // Assure-toi que ce chemin est correct
+    "service": "web", // Le nom du service dans le docker-compose.yml
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "python.linting.enabled": true,
+                "python.formatting.autopep8Args": [
+                    "--max-line-length=100"
+                ]
+            },
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance"
+            ]
+        }
+    }
+}
